@@ -3,12 +3,19 @@ Full stack web app using Mongodb for database, Java and Spring Boot for the back
 
 <a href="https://www.freecodecamp.org/news/full-stack-development-with-mongodb-java-and-react/">Full Stack Dev with MongoDB, Java and React</a>
 
-Summarized Process:
+Summarized Backend Process:
 <ul>
   <li>Set up MongoDB and import data.</li>
   <li>Set up Spring Initialzr and import into IntelliJ.</li>
   <li>Configure database for MongoDB.</li>
   <li>Create Movies and Reviews Enpoints with controllers, repositories and services for movies and reviews.</li>
+</ul>
+
+Summarized Frontend Process:
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>
 
 Notes:
@@ -163,6 +170,33 @@ Movies and Reviews Endpoint
       <li>Instantiate <code>reviewService</code>. Use <code>@Autowired</code> to tell framework to instantiate this class for us, or create an instance or object of this class.</li>
       <li>In ReviewController create <code>createReview()</code> method to return a ResponseEntity with <code>service.createReview(payload.get("reviewBody"), payload.get("imdbId")</code> method and HttpStatus.OK.</li>
       <li>Test using "http://localhost:8080/api/v1/reviews" with {"reviewBody": "Entertaining movie for the whole family!", "imdbID": "tt3915174"}</li>
+    </ul>
+  </li>
+</ol>
+
+<b>Frontend</b>
+<ol>
+  <li>Create React Project
+    <ul>
+      <li>~<code>npx create-react-app movie-gold-v1</code></li>
+      <li>From the src file, remove the App.test.js, setupTests.js,and reportRebVitals.js.</li>
+      <li>In the package.json, remove "eslintConfig".</li>
+      <li>In the index.js, remove the coderelated to the reportWebVitals.</li>
+      <li>In the terminal, install Axios ~<code>npm install axios</code>.</li>
+    </ul>
+  </li>
+  <li>Applying Bootstrap to React App
+    <ul>
+      <li>Install bootstrap ~<code>npm install bootstrap</code></li>
+      <li>~<code>npm i react-bootstrap</code></li>
+      <li>~<code>npm i @fortawesome/react-fontawesome</code></li>
+      <li>~<code>npm i @fortawesome/free-solid-svg-icons</code></li>
+      <li>~<code>npm i react-player</code></li>
+      <li>~<code>npm i react-router-dom</code></li>
+      <li>~<code>npm install @mui/material @emotion/react @emotion/styled</code></li>
+      <li>~<code>npm install react-material-ui-carousel</code></li>
+      <li>In index.js, <code>import 'bootstrap/dist/css/bootstrap.min.css'</code></li>
+      <li>Create api folder, inside api folder create axiosConfig.js.</li>
     </ul>
   </li>
 </ol>
