@@ -13,9 +13,15 @@ Summarized Backend Process:
 
 Summarized Frontend Process:
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Create React project.</li>
+  <li>Apply Bootstrap to React Application.</li>
+  <li>Implementing the Use State and Use Effect Hooks.</li>
+  <li>Create Home and Hero Component.</li>
+  <li>Style the Carousel.</li>
+  <li>Create Header Component(Navigation).</li>
+  <li>Create Trailer Component with react player.</li>
+  <li>Create Movie Reviews Functionality.</li>
+  <li>Add and Get Reviews with HTTP Requests.</li>
 </ul>
 
 Notes:
@@ -197,6 +203,21 @@ Movies and Reviews Endpoint
       <li>~<code>npm install react-material-ui-carousel</code></li>
       <li>In index.js, <code>import 'bootstrap/dist/css/bootstrap.min.css'</code></li>
       <li>Create api folder, inside api folder create axiosConfig.js.</li>
+    </ul>
+  </li>
+  <li>Implementing the use state and use effect hooks
+    <ul>
+      <li>In App.js
+        <ul>
+          <li>Import Axios object from within our Axios config.js file.</li>
+          <li>Import useState and useEffect from react.</li>
+          <li>When state of the variable tracked by react through the use state hook is changed, the component is rerendered by react. So the app component will be rerendered when the state of the movies variable changes.</li>
+          <li>Implement useEffect hook so that the function is executed when the app component first loads.</li>
+          <li>Test by console logging response.data in getMovies and then using ~<code>npm start</code></li>
+        </ul>
+      <li></li>
+      <li></li>
+      <li></li>
     </ul>
   </li>
 </ol>
