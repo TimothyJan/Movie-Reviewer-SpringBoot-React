@@ -227,11 +227,15 @@ Movies and Reviews Endpoint
       <li>Create home folder in components folder. Create Home.js in home folder. Use "rafce" to import boilerplate code.</li>
       <li>Import Home.js into the App.js file and modify route to link to Home. Test with ~<code>npm start</code></li>
       <li>Create hero folder in components folder. Create Hero.js and Hero.css in hero folder. Use "rafce" to import boilerplate code. The hero component will display items in a carousel that are representative of the movies to the users of this application.</li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+    </ul>
+  </li>
+  <li>Create Header Component(Navigation)
+    <ul>
+      <li>Create header folder in components folder. Create Header.js in header folder.</li>
+    </ul>
+  </li>
+  <li>Create Trailer Component with react-player
+    <ul>
       <li></li>
     </ul>
   </li>
