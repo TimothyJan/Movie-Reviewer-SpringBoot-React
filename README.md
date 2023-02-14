@@ -47,6 +47,7 @@ Notes:
       <li>returns the completed work a response to the manager.</li>
     </ul>
   </li>
+  <li>Use "rafce" to import boilerplate code in frontend.</li>
 </ul>
 
 <b>Detailed Process:</b><br>
@@ -215,6 +216,23 @@ Movies and Reviews Endpoint
           <li>Implement useEffect hook so that the function is executed when the app component first loads.</li>
           <li>Test by console logging response.data in getMovies and then using ~<code>npm start</code></li>
         </ul>
+    </ul>
+  </li>
+  <li>Create Home and Hero Component
+    <ul>
+      <li>Implement routing functionality.</li>
+      <li>Create components folder. Create Layout.js file in components folder. Import Outlet from react-router-dom. Use "rafce" to import boilerplate code.</li>
+      <li>In App.js, import  Routes, Route from 'react-router-dom'. Write code to establish the route mappings for our application.</li>
+      <li>In index.js, import BrowserRouter, Route, Routes from 'react-router-dom'. Modify the render with the imported components.</li>
+      <li>Create home folder in components folder. Create Home.js in home folder. Use "rafce" to import boilerplate code.</li>
+      <li>Import Home.js into the App.js file and modify route to link to Home. Test with ~<code>npm start</code></li>
+      <li>Create hero folder in components folder. Create Hero.js and Hero.css in hero folder. Use "rafce" to import boilerplate code. The hero component will display items in a carousel that are representative of the movies to the users of this application.</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
     </ul>
   </li>
 </ol>
