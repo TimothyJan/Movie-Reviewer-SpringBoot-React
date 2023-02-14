@@ -202,7 +202,7 @@ Movies and Reviews Endpoint
       <li>~<code>npm install @mui/material @emotion/react @emotion/styled</code></li>
       <li>~<code>npm install react-material-ui-carousel</code></li>
       <li>In index.js, <code>import 'bootstrap/dist/css/bootstrap.min.css'</code></li>
-      <li>Create api folder, inside api folder create axiosConfig.js.</li>
+      <li>Create api folder, inside api folder create axiosConfig.js. Modified axiosConfig.js to be used with localhost:8080.</li>
     </ul>
   </li>
   <li>Implementing the use state and use effect hooks
@@ -215,9 +215,6 @@ Movies and Reviews Endpoint
           <li>Implement useEffect hook so that the function is executed when the app component first loads.</li>
           <li>Test by console logging response.data in getMovies and then using ~<code>npm start</code></li>
         </ul>
-      <li></li>
-      <li></li>
-      <li></li>
     </ul>
   </li>
 </ol>
