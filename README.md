@@ -236,7 +236,12 @@ Movies and Reviews Endpoint
   </li>
   <li>Create Trailer Component with react-player
     <ul>
-      <li></li>
+      <li>Create trailer folder win components folder. Create Trailer.js in trailer folder.</li>
+      <li>Import params hook into our code from react-router-dom. A Youtube video ID will be passed into this component as a parameter. We will use the use params hook to extract the relevant parameter from the relevant URl. The relevant parameter will contain a YouTube video ID which will allow us to play a Youtube video, in this case the trailer for the relevant movie.</li>
+      <li>The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the &lt;Route path>.</li>
+      <li>In App.js, include the relevant route info for the trailer component. Let react-router-dom know about the YouTube video ID parameter taht our code int eh trailer component must access.</li>
+      <li>In Hero.js, include a play button icon within the carousel.</li>
+      <li>In Hero.js, make the play button a link to the trailer.</li>
     </ul>
   </li>
 </ol>
