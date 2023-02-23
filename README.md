@@ -24,6 +24,15 @@ Summarized Frontend Process:
   <li>Add and Get Reviews with HTTP Requests.</li>
 </ul>
 
+<h3>Home Page.</h3>
+<img src="screenshots/1-Home.png" alt="Home" width="150%" height="150%">
+
+<h3>Trailer</h3>
+<img src="screenshots/2-Trailer.png" alt="Trailer" width="150%" height="150%">
+
+<h3>Reviews</h3>
+<img src="screenshots/3-Reviews.png" alt="Reviews" width="200%" height="200%">
+
 Notes:
 <ul>
   <li>Manager/controller receives the work, decides who should do it and then passes off the request to be completed. The worker/service is the one that takes that request and actually completes it.</li>
