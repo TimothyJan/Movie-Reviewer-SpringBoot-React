@@ -250,8 +250,7 @@ Movies and Reviews Endpoint
       <li>Create parent component reviews for the child component reviewForm. Create reviews folder in components folder. Create Reviews.js in reviews folder.</li>
       <li>Create Reviews.js in reviews folder. Organize how the movie poster and review will look. Create a method addReview to handle the HTTP POST request functionality for adding the review to the MongoDB database.</li>
       <li>In App.js, create method getMovieData to get data on a single movie. Add route for Reviews.</li>
-      <li>In Hero.js, add movie review button.</li>
-      <li></li>
+      <li>In Hero.js, add movie review button to link to Reviews page.</li>
     </ul>
   </li>
 </ol>
